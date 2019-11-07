@@ -11,7 +11,7 @@ import { Product } from './product';
 export class ProductService {
 
   private _albumUrl : string ='../assets/album.json';
-  _productsUrl : string='../assets/products.json';
+  private _productsUrl : string='../assets/products.json';
 
   constructor(private _http:Http) { }
 
